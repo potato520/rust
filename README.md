@@ -1,9 +1,9 @@
 # rust
 **第一次使用git 命令小结**
 1.设置用户名
-git config --global user.name 'photo520'
+git config --global user.name 'potato520'
 2.设置邮箱
-git config --global user.name 'alexa456@163.com'
+git config --global user.email 'alexa456@163.com'
 接着初始化仓库（要做项目目录里面初始化）
 git init
 #想仓库提交文件
