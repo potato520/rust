@@ -21,7 +21,9 @@ git commit -m '我有修改了a1.php文件了，提交到仓库'
 #从仓库删除文件
 git rm a1.php
 git commit -m '第一次删除仓库的文件'
-
+#删除暂存区的文件
+git rm -r --cache xxx(文件夹)
+git rm -cache xxx.txt(文件)
 #将本地仓库提交到远程仓库
 #首先将 远程代码clone到本地
 ===================================
